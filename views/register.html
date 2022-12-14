@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="/images/logo-mercado-liebre.svg" alt="logo">
+        </div> 
+
+        <div class="navbar">
+            <input placeholder="buscar productos,marca" type="nav">
+        </div>
+
+        <div class="search">
+            <i class="fas fa-search"></i><input id="lupita" type="button" value="">
+        </div>
+    
+        <p id="compracon"><i class="fas fa-hand-holding-usd"></i> Compra con trajeta de credito y en cuotas</p>
+        <ul class="navlinks">
+            <li type="none"><a href="">Ofertas</a></li>
+            <li type="none"><a href="">Tiendas oficiales</a></li>
+            <li type="none"><a href="">Vender</a></li>
+            <li type="none"><a href="">Ayuda</a></li>
+        </ul>
+    <ul>
+        <li type="none"></i><a href="/register">Crea tu cuenta</a><i class="far fa-id-card"></i></i></li>
+        <li type="none"><a href="/login">Ingresa</a><i class="fas fa-sign-in-alt"></i></li>
+        <li type="none"><a href="">Mis compras</a><i class="fas fa-shopping-basket"></i></li>
+    </ul>
+
+</header>
+    <section>
+        <form class="form-register" action="/register" method="post">
+            <input class="inputs-register" type="text" placeholder="nombre y apellido:" name="nombre-apellido">
+            <input class="inputs-register" type="text" placeholder="nombre de usuari@:" name="nombre-usuario">
+            <input class="inputs-register" type="email" placeholder="E-mail:" name="email">
+            <div class="titulo-fecha">
+                <h4>Fecha de nacimiento</h4>
+            </div>
+            <input class="inputs-register" type="date" placeholder="fecha de nacimiento:" name="fecha-nacimiento">          
+            <input class="inputs-register" type="text" placeholder="domicilio:" name="domicilio">
+            <label class="label-register" for="tipo-usuario">perfil del usuario</label>
+
+
+            <div class="main-radio-register">
+
+                <div class="radio-register">
+                    <input class="rad-reg" type="radio" value="comprador"><p>comprador</p>
+                </div>
+                <div class="radio-register">
+                    <input class="rad-reg" type="radio" value="vendedor"><p>vendedor</p>
+                </div>
+                
+            </div>
+
+            
+            <div class="main-cbox-register">
+                <label class="label-register" for="intereses:">intereses</label>
+                    <div class="checkbox-register">
+                        <input type="checkbox" name="intereses" value="electro"><p>electro</p>
+                    </div>
+                    <div class="checkbox-register">
+                        <input type="checkbox" name="intereses" value="moda"><p>moda</p>
+                    </div>
+                    <div class="checkbox-register">
+                        <input type="checkbox" name="intereses" value="hogar"><p>hogar</p>
+                    </div>
+                    <div class="checkbox-register">
+                        <input type="checkbox" name="intereses" value="jugueteria"><p>jugueteria</p>
+                    </div>
+                    <div class="checkbox-register">
+                        <input type="checkbox" name="intereses" value="vida-sana"><p>vida sana</p>
+                    </div>
+            </div>
+        </form>
+    </section>
+    
+</body>
+</html>
